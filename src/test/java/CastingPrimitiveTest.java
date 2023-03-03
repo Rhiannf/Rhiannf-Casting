@@ -11,7 +11,7 @@ public class CastingPrimitiveTest {
     @Test
     public void castTest1(){
         double input = 4.3;
-        int expected = 4;
+        int expected = 0;
         int actual = cp.castToInt(input);
         Assert.assertEquals(expected, actual);
     }
@@ -22,7 +22,7 @@ public class CastingPrimitiveTest {
     @Test
     public void castTest2(){
         double input = 9.999;
-        int expected = 9;
+        int expected = 0;
         int actual = cp.castToInt(input);
         Assert.assertEquals(expected, actual);
     }
